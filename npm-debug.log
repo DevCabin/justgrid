@@ -1,0 +1,97 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/usr/bin/nodejs',
+1 verbose cli   '/usr/bin/npm',
+1 verbose cli   'install',
+1 verbose cli   '[-g]',
+1 verbose cli   'minifier' ]
+2 info using npm@1.3.10
+3 info using node@v0.10.25
+4 verbose cache add [ '[-g]', null ]
+5 verbose cache add name=undefined spec="[-g]" args=["[-g]",null]
+6 verbose parsed url { protocol: null,
+6 verbose parsed url   slashes: null,
+6 verbose parsed url   auth: null,
+6 verbose parsed url   host: null,
+6 verbose parsed url   port: null,
+6 verbose parsed url   hostname: null,
+6 verbose parsed url   hash: null,
+6 verbose parsed url   search: null,
+6 verbose parsed url   query: null,
+6 verbose parsed url   pathname: '[-g]',
+6 verbose parsed url   path: '[-g]',
+6 verbose parsed url   href: '[-g]' }
+7 verbose cache add [ 'minifier', null ]
+8 verbose cache add name=undefined spec="minifier" args=["minifier",null]
+9 verbose parsed url { protocol: null,
+9 verbose parsed url   slashes: null,
+9 verbose parsed url   auth: null,
+9 verbose parsed url   host: null,
+9 verbose parsed url   port: null,
+9 verbose parsed url   hostname: null,
+9 verbose parsed url   hash: null,
+9 verbose parsed url   search: null,
+9 verbose parsed url   query: null,
+9 verbose parsed url   pathname: 'minifier',
+9 verbose parsed url   path: 'minifier',
+9 verbose parsed url   href: 'minifier' }
+10 silly lockFile 59c8589d-minifier minifier
+11 verbose lock minifier /home/george/.npm/59c8589d-minifier.lock
+12 silly lockFile 6f826bb4-g [-g]
+13 verbose lock [-g] /home/george/.npm/6f826bb4-g.lock
+14 silly lockFile 59c8589d-minifier minifier
+15 silly lockFile 59c8589d-minifier minifier
+16 silly lockFile 6f826bb4-g [-g]
+17 silly lockFile 6f826bb4-g [-g]
+18 verbose addNamed [ 'minifier', '' ]
+19 verbose addNamed [ null, '*' ]
+20 silly lockFile 690faf1f-minifier minifier@
+21 verbose lock minifier@ /home/george/.npm/690faf1f-minifier.lock
+22 verbose addNamed [ '[-g]', '' ]
+23 verbose addNamed [ null, '*' ]
+24 silly lockFile e58810aa-g [-g]@
+25 verbose lock [-g]@ /home/george/.npm/e58810aa-g.lock
+26 silly addNameRange { name: 'minifier', range: '*', hasData: false }
+27 silly addNameRange { name: '[-g]', range: '*', hasData: false }
+28 verbose url raw minifier
+29 verbose url resolving [ 'https://registry.npmjs.org/', './minifier' ]
+30 verbose url resolved https://registry.npmjs.org/minifier
+31 info trying registry request attempt 1 at 15:23:21
+32 http GET https://registry.npmjs.org/minifier
+33 verbose url raw [-g]
+34 verbose url resolving [ 'https://registry.npmjs.org/', './%5B-g%5D' ]
+35 verbose url resolved https://registry.npmjs.org/%5B-g%5D
+36 info trying registry request attempt 1 at 15:23:21
+37 http GET https://registry.npmjs.org/%5B-g%5D
+38 http 404 https://registry.npmjs.org/%5B-g%5D
+39 silly registry.get cb [ 404,
+39 silly registry.get   { 'content-type': 'application/json',
+39 silly registry.get     'cache-control': 'max-age=0',
+39 silly registry.get     'content-length': '64',
+39 silly registry.get     'accept-ranges': 'bytes',
+39 silly registry.get     date: 'Sat, 25 Jul 2015 20:23:22 GMT',
+39 silly registry.get     via: '1.1 varnish',
+39 silly registry.get     age: '0',
+39 silly registry.get     connection: 'keep-alive',
+39 silly registry.get     'x-served-by': 'cache-lax1421-LAX',
+39 silly registry.get     'x-cache': 'MISS',
+39 silly registry.get     'x-cache-hits': '0',
+39 silly registry.get     'x-timer': 'S1437855801.950944,VS0,VE294' } ]
+40 silly addNameRange number 2 { name: '[-g]', range: '*', hasData: true }
+41 silly addNameRange versions [ undefined, [] ]
+42 error TypeError: Cannot read property 'latest' of undefined
+42 error     at next (/usr/share/npm/lib/cache.js:687:35)
+42 error     at /usr/share/npm/lib/cache.js:675:5
+42 error     at saved (/usr/share/npm/node_modules/npm-registry-client/lib/get.js:142:7)
+42 error     at /usr/lib/nodejs/graceful-fs/polyfills.js:133:7
+42 error     at Object.oncomplete (fs.js:107:15)
+43 error If you need help, you may report this log at:
+43 error     <http://github.com/isaacs/npm/issues>
+43 error or email it to:
+43 error     <npm-@googlegroups.com>
+44 error System Linux 3.13.0-58-generic
+45 error command "/usr/bin/nodejs" "/usr/bin/npm" "install" "[-g]" "minifier"
+46 error cwd /home/george/Copy/justgrid/justgrid
+47 error node -v v0.10.25
+48 error npm -v 1.3.10
+49 error type non_object_property_load
+50 verbose exit [ 1, true ]
