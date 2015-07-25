@@ -9,4 +9,4 @@ Just the grid and a few optional defaults from Bootstrap for lightweight and rap
 * Opinionated defaults for typography (OPTIONAL)
 * Helper classes (OPTIONAL)
 
-If anyone has been following my projects, this replaces the now abandoned g-grid [LINK](link-text)
+If anyone has been following my projects, this replaces the now abandoned [g-grid](https://github.com/DevCabin/g-grid)
